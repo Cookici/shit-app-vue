@@ -1,0 +1,18 @@
+
+.container {
+	padding: 20rpx;
+}
+.header {
+	text-align: center;
+	margin-bottom: 30rpx;
+}
+.title {
+	font-size: 40rpx;
+	font-weight: bold;
+	color: #333;
+}
+.loading {
+	text-align: center;
+	padding: 50rpx 0;
+	color: #999;
+}

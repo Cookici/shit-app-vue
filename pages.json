@@ -1,0 +1,103 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "拉屎日记"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录授权"
+			}
+		},
+		{
+			"path": "pages/user/profile",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/record/add",
+			"style": {
+				"navigationBarTitleText": "添加记录"
+			}
+		},
+		{
+			"path": "pages/record/detail",
+			"style": {
+				"navigationBarTitleText": "记录详情"
+			}
+		},
+		{
+			"path": "pages/record/edit",
+			"style": {
+				"navigationBarTitleText": "编辑记录"
+			}
+		},
+		{
+			"path": "pages/ranking/index",
+			"style": {
+				"navigationBarTitleText": "排行榜"
+			}
+		},
+		{
+			"path": "pages/friends/index",
+			"style": {
+				"navigationBarTitleText": "好友管理",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/ranking/friends",
+			"style": {
+				"navigationBarTitleText": "好友排行榜"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#07c160",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/ranking/index",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "排行榜"
+			},
+			{
+				"pagePath": "pages/friends/index",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "好友"
+			},
+			{
+				"pagePath": "pages/user/profile",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "拉屎日记",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^record-form$": "@/components/record-form.vue"
+		}
+	}
+}

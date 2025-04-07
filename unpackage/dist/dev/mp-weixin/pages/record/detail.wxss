@@ -1,0 +1,113 @@
+
+.container {
+	padding: 20rpx;
+}
+.header {
+	text-align: center;
+	margin-bottom: 30rpx;
+}
+.title {
+	font-size: 40rpx;
+	font-weight: bold;
+	color: #333;
+}
+.record-container {
+	background-color: #fff;
+	border-radius: 12rpx;
+	box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+	padding: 30rpx;
+}
+.record-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 20rpx;
+	border-bottom: 1rpx solid #eee;
+	margin-bottom: 20rpx;
+}
+.record-time {
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #333;
+}
+.record-type {
+	padding: 10rpx 20rpx;
+	border-radius: 20rpx;
+	font-size: 28rpx;
+	color: #fff;
+}
+.record-info {
+	margin-bottom: 30rpx;
+}
+.info-item {
+	margin-bottom: 20rpx;
+}
+.info-label {
+	display: block;
+	font-size: 28rpx;
+	color: #666;
+	margin-bottom: 10rpx;
+}
+.info-value {
+	font-size: 32rpx;
+	color: #333;
+}
+.note {
+	line-height: 1.5;
+}
+.tags-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tag {
+	font-size: 28rpx;
+	background-color: #f0f0f0;
+	color: #666;
+	padding: 8rpx 16rpx;
+	border-radius: 16rpx;
+	margin-right: 16rpx;
+	margin-bottom: 10rpx;
+}
+.health-info {
+	background-color: #f8f8f8;
+	padding: 20rpx;
+	border-radius: 8rpx;
+	margin-bottom: 30rpx;
+}
+.health-title {
+	font-size: 28rpx;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10rpx;
+	display: block;
+}
+.health-content {
+	font-size: 28rpx;
+	color: #666;
+	line-height: 1.5;
+}
+.action-buttons {
+	display: flex;
+	justify-content: space-between;
+}
+.edit-btn, .delete-btn {
+	width: 45%;
+	height: 80rpx;
+	line-height: 80rpx;
+	border-radius: 40rpx;
+	font-size: 28rpx;
+}
+.edit-btn {
+	background-color: #07c160;
+	color: #fff;
+}
+.delete-btn {
+	background-color: #fff;
+	color: #ff0000;
+	border: 1rpx solid #ff0000;
+}
+.loading {
+	text-align: center;
+	padding: 50rpx 0;
+	color: #999;
+}

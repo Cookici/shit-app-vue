@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/user/profile",
+    "pages/record/add",
+    "pages/record/detail",
+    "pages/record/edit",
+    "pages/ranking/index",
+    "pages/friends/index",
+    "pages/ranking/friends"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "拉屎日记",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#07c160",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/ranking/index",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "text": "排行榜"
+      },
+      {
+        "pagePath": "pages/friends/index",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "text": "好友"
+      },
+      {
+        "pagePath": "pages/user/profile",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

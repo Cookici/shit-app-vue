@@ -1,0 +1,229 @@
+
+.container {
+	padding: 20rpx;
+}
+.header {
+	text-align: center;
+	margin-bottom: 30rpx;
+}
+.title {
+	font-size: 40rpx;
+	font-weight: bold;
+	color: #333;
+}
+
+/* 日历样式 */
+.calendar-container {
+	background-color: #fff;
+	border-radius: 12rpx;
+	box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+	padding: 20rpx;
+	margin-bottom: 30rpx;
+}
+.month-selector {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20rpx;
+}
+.current-month {
+	font-size: 32rpx;
+	font-weight: bold;
+}
+.weekdays {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10rpx;
+}
+.weekday {
+	width: 14.28%;
+	text-align: center;
+	font-size: 28rpx;
+	color: #666;
+}
+.days {
+	display: flex;
+	flex-wrap: wrap;
+}
+.day-cell {
+	width: 14.28%;
+	height: 80rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-bottom: 10rpx;
+}
+.day-number {
+	font-size: 28rpx;
+}
+.empty {
+	opacity: 0;
+}
+.today .day-number {
+	background-color: #07c160;
+	color: #fff;
+	width: 50rpx;
+	height: 50rpx;
+	border-radius: 25rpx;
+	text-align: center;
+	line-height: 50rpx;
+}
+.record-indicator {
+	width: 8rpx;
+	height: 8rpx;
+	border-radius: 4rpx;
+	background-color: #07c160;
+	position: absolute;
+	bottom: 10rpx;
+}
+
+/* 记录列表样式 */
+.records-container {
+	background-color: #fff;
+	border-radius: 12rpx;
+	box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+	padding: 20rpx;
+}
+.date-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20rpx;
+	position: relative; /* 添加相对定位 */
+}
+
+/* 移除原添加按钮样式 */
+.add-btn {
+	display: none;
+}
+
+/* 添加右上角按钮样式 */
+.corner-add-btn {
+	width: 60rpx;
+	height: 60rpx;
+	background-color: #07c160;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 2rpx 6rpx rgba(0, 0, 0, 0.2);
+}
+.add-icon {
+	color: #fff;
+	font-size: 32rpx; /* 调小字体大小 */
+	font-weight: bold;
+	text-align: center;
+	line-height: 1; /* 设置行高为1 */
+}
+.empty-records {
+	padding: 40rpx 0;
+	text-align: center;
+	color: #999;
+}
+.record-list {
+	margin-top: 20rpx;
+}
+.record-item {
+	display: flex;
+	align-items: center;
+	padding: 20rpx 0;
+	border-bottom: 1rpx solid #eee;
+}
+.record-time {
+	width: 120rpx;
+	font-size: 28rpx;
+	color: #333;
+}
+.record-type {
+	padding: 6rpx 16rpx;
+	border-radius: 20rpx;
+	font-size: 24rpx;
+	color: #fff;
+	margin-right: 20rpx;
+}
+.record-duration {
+	font-size: 24rpx;
+	color: #666;
+	margin-right: 20rpx;
+}
+
+/* 添加记录备注样式 */
+.record-note {
+	font-size: 24rpx;
+	color: #666;
+	margin-right: 20rpx;
+	max-width: 200rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.record-tags {
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+.tag {
+	font-size: 24rpx;
+	background-color: #f0f0f0;
+	color: #666;
+	padding: 4rpx 12rpx;
+	border-radius: 16rpx;
+	margin-right: 10rpx;
+	margin-bottom: 6rpx;
+}
+.pagination {
+	margin-top: 30rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.pagination-info {
+	font-size: 24rpx;
+	color: #999;
+	margin-bottom: 15rpx;
+}
+.pagination-controls {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pagination-btn {
+	width: 60rpx;
+	height: 60rpx;
+	border-radius: 30rpx;
+	background-color: #f5f5f5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 10rpx;
+}
+.pagination-btn.disabled {
+	opacity: 0.5;
+}
+.pagination-icon {
+	font-size: 24rpx;
+	color: #666;
+}
+.pagination-page {
+	min-width: 60rpx;
+	height: 60rpx;
+	border-radius: 30rpx;
+	background-color: #f5f5f5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 10rpx;
+	padding: 0 10rpx;
+}
+.pagination-page.active {
+	background-color: #07c160;
+}
+.pagination-page.active text {
+	color: #fff;
+}
+.pagination-page text {
+	font-size: 28rpx;
+	color: #666;
+}

@@ -1,0 +1,1 @@
+<view class="container"><view class="header"><text class="title">编辑拉屎记录</text></view><record-form wx:if="{{a}}" bindsubmit="{{b}}" u-i="4a5032ef-0" bind:__l="__l" u-p="{{c}}"></record-form><view wx:else class="loading"><text>加载中...</text></view></view>

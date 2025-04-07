@@ -1,0 +1,1 @@
+<view class="container"><view class="header"><text class="title">添加拉屎记录</text></view><record-form wx:if="{{b}}" bindsubmit="{{a}}" u-i="fe07a468-0" bind:__l="__l" u-p="{{b}}"></record-form></view>

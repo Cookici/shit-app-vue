@@ -1,0 +1,1 @@
+<view class="login-container"><view class="logo-box"><image class="logo" src="{{a}}"></image></view><view class="title-box"><text class="title">欢迎使用</text><text class="subtitle">请授权登录以继续</text></view><view class="btn-box"><button class="wx-login-btn" type="primary" bindtap="{{b}}"><text class="iconfont">微信登录</text></button></view></view>
